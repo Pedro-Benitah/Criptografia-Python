@@ -8,6 +8,10 @@ alfabeto[0] = list(string.ascii_uppercase)
 alfabeto[0].append(' ')
 alfabeto[0].append(',')
 alfabeto[0].append('.')
+alfabeto[0].append('!')
+alfabeto[0].append('?')
+alfabeto[0].append('-')
+alfabeto[0].append('_')
 for i in range(0, 10):
     alfabeto[0].append(f'{i}')
 for i in range(10,36):
@@ -15,6 +19,10 @@ for i in range(10,36):
 alfabeto[1].append('99')
 alfabeto[1].append('97')
 alfabeto[1].append('98')
+alfabeto[1].append('95')
+alfabeto[1].append('96')
+alfabeto[1].append('93')
+alfabeto[1].append('94')
 for i in range(40, 50):
     alfabeto[1].append(f'{i}')
 
